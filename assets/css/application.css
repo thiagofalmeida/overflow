@@ -1,0 +1,201 @@
+@font-face {
+	font-family: "OS-ExtraBoldItalic";
+	src: url("../fonts/OpenSans-ExtraBoldItalic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "OS-ExtraBold";
+	src: url("../fonts/OpenSans-ExtraBold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "OS-Semibold";
+	src: url("../fonts/OpenSans-Semibold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "AlegreyaSans-Thin";
+	src: url("../fonts/AlegreyaSans-Thin.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* ========================= default style =========================== */
+
+body {
+	background: url(../img/bg.jpg) no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+p {
+	margin: 0;
+}
+
+.wrapper {
+	padding: 40px 0;
+}
+
+/* ========================= imagens style =========================== */
+
+.logo {
+	max-width: 300px;
+	max-height: 300px;
+	width: auto;
+	height: auto;
+}
+
+.event-date {
+	max-width: 200px;
+	max-height: 22px;
+	width: auto;
+	height: auto;
+}
+
+.register {
+	max-width: 300px;
+	max-height: 37px;
+	width: auto;
+	height: auto;
+}
+
+div #overflow, #event {
+	padding-bottom: 25px;
+}
+
+#link {
+	padding-top: 10px;
+	padding-bottom: 25px;
+}
+
+.facebook {
+	padding-top: 15px;
+}
+
+/* ========================= box style =========================== */
+
+#worshipers {
+	font-size: 1.4em;
+}
+
+#workshop {
+	background-color: #4D4DB8;
+	color: white;
+	font-size: 1em;
+}
+
+.title {
+	font-family: 'AlegreyaSans-Thin';
+	padding-top: 10px;
+	font-size: 1.3em;
+}
+
+.text-inside {
+	font-family: 'OS-ExtraBoldItalic';
+}
+
+.box {
+	margin-bottom: 20px;
+	padding: 10px 30px 30px;
+}
+
+.temp-tag {
+	border-width: 2px;
+	border-style: solid;
+	border-color: white;
+	color: white;
+	text-align: center;
+}
+
+.online {
+	font-size: 1.250em;
+	font-family: 'OS-Semibold';
+}
+
+.soon {
+	font-family: 'OS-ExtraBold';
+}
+
+/* ========================= schedule box style =========================== */
+
+#schedule {
+	color: white;
+	font-family: 'OS-ExtraBoldItalic';
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.white-box {
+	background-color: white;
+	color: #FF4C4C;
+}
+
+.blue-box {
+	background-color: #4D4DB8;
+	color: white;
+}
+
+.worship {
+	font-size: 1.175em;
+	font-family: 'OS-ExtraBoldItalic';
+}
+
+.friday-worship {
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 50.9px;
+}
+
+.see {
+	color: #F90909;
+}
+
+/* ========================= footer style =========================== */
+
+.footer-basic-centered {
+	background-color: rgba(35, 35, 35, 0.48);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: center;
+	font: normal 0.9em "OS-Semibold";
+
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.footer-basic-centered .footer-company-name {
+	color:  #A9ADB1;
+	font-size: 0.830em;
+	margin: 0;
+}
+
+.footer-basic-centered .footer-links {
+	list-style: none;
+	color:  #ffffff;
+	padding: 10px;
+	margin: 0;
+}
+
+/* ========================= footer responsivo ============================*/
+
+@media (max-width: 600px) {
+	.footer-basic-centered {
+		padding: 15px;
+	}
+
+	.footer-basic-centered .footer-company-name {
+		font-size: 0.8em;
+	}
+
+	.footer-basic-centered .footer-links {
+		font-size: 0.9em;
+	}
+}
